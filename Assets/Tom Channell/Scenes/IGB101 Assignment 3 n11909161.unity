@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 752a75b76a2fdac498218c00e81bc04d, type: 2}
   m_LightingSettings: {fileID: 1147149739}
 --- !u!196 &4
 NavMeshSettings:
@@ -1088,7 +1088,6 @@ GameObject:
   - component: {fileID: 188719648}
   - component: {fileID: 188719647}
   - component: {fileID: 188719646}
-  - component: {fileID: 188719649}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1170,18 +1169,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &188719649
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 188719645}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 15f6720f2d78daf419a118f256a6d1ae, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &202722325 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4808838589970982, guid: 34aa8881937f6d34dae65bd3e4559d98, type: 3}
@@ -8532,7 +8519,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 298347872}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 05dea7d3b8074774a8810ae26ef8a44a, type: 3}
+  m_Script: {fileID: 11500000, guid: ef0302b22431b0544be29c4d1408282b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!111 &298347880
@@ -15804,7 +15791,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 611372153}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: df67da1fe6c607c46a991d1d56dfa180, type: 3}
+  m_Script: {fileID: 11500000, guid: 7e5aa221fdc1e934e95bf4bfd41db0d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &631657589
@@ -17165,7 +17152,6 @@ GameObject:
   m_Component:
   - component: {fileID: 927700759}
   - component: {fileID: 927700758}
-  - component: {fileID: 927700760}
   m_Layer: 0
   m_Name: AmbientRainAndThunder
   m_TagString: Untagged
@@ -17284,18 +17270,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &927700760
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 927700757}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: df67da1fe6c607c46a991d1d56dfa180, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &928644514
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17487,10 +17461,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3128416407144590430, guid: f95b81b561c16d34e851c37c93380729, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2109292152}
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 5454143339623918742, guid: f95b81b561c16d34e851c37c93380729, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 928644518}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f95b81b561c16d34e851c37c93380729, type: 3}
 --- !u!4 &928644515 stripped
 Transform:
@@ -17502,23 +17473,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3128416407144590430, guid: f95b81b561c16d34e851c37c93380729, type: 3}
   m_PrefabInstance: {fileID: 928644514}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &928644517 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5454143339623918742, guid: f95b81b561c16d34e851c37c93380729, type: 3}
-  m_PrefabInstance: {fileID: 928644514}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &928644518
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 928644517}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f1a1e8526ae8a048bde316d5c2b8c91, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &980342288
 GameObject:
   m_ObjectHideFlags: 0
@@ -18045,7 +17999,7 @@ LightingSettings:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   serializedVersion: 6
-  m_GIWorkflowMode: 1
+  m_GIWorkflowMode: 0
   m_EnableBakedLightmaps: 1
   m_EnableRealtimeLightmaps: 0
   m_RealtimeEnvironmentLighting: 1
@@ -19904,7 +19858,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1687318289}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: df67da1fe6c607c46a991d1d56dfa180, type: 3}
+  m_Script: {fileID: 11500000, guid: 7e5aa221fdc1e934e95bf4bfd41db0d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1689164660
@@ -20154,7 +20108,8 @@ MonoBehaviour:
   maxPickups: 4
   levelComplete: 0
   pickupText: {fileID: 383721338}
-  audioSources: []
+  audioSources:
+  - {fileID: 927700758}
   audioProximity: 5
 --- !u!4 &1712441681
 Transform:
@@ -26285,7 +26240,7 @@ MonoBehaviour:
   MaxViewDistance: 15
   MinViewDistance: 1
   ZoomRate: 20
-  cameraTargetHeight: 1
+  cameraTargetHeight: 3
 --- !u!81 &2099405377
 AudioListener:
   m_ObjectHideFlags: 0
