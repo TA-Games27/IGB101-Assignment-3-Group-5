@@ -10080,7 +10080,7 @@ MonoBehaviour:
   MaxViewDistance: 15
   MinViewDistance: 1
   ZoomRate: 20
-  cameraTargetHeight: 0.5
+  cameraTargetHeight: -1.5
 --- !u!81 &619769500
 AudioListener:
   m_ObjectHideFlags: 0
