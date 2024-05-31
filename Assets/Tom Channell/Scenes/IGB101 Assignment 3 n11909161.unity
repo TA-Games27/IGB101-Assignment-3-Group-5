@@ -783,7 +783,7 @@ GameObject:
   - component: {fileID: 169308606}
   - component: {fileID: 169308605}
   m_Layer: 0
-  m_Name: Cube (2)
+  m_Name: ProBuilder-1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1424,7 +1424,7 @@ GameObject:
   - component: {fileID: 234124377}
   - component: {fileID: 234124376}
   m_Layer: 0
-  m_Name: Cylinder
+  m_Name: ProBuilder-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4197,7 +4197,7 @@ GameObject:
   - component: {fileID: 332039482}
   - component: {fileID: 332039481}
   m_Layer: 0
-  m_Name: Cube (5)
+  m_Name: Probuilder-3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
